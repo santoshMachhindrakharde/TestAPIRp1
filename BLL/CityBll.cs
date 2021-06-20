@@ -14,6 +14,7 @@ namespace simpalapilearn.BLL
         public CityBll()
         {
             Db = new CityRepo();
+           Dl = new CityRepo();
         }
          public string InsertCity( ref Cityinfomodel Citym)
         {
