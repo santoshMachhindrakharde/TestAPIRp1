@@ -10,7 +10,7 @@ namespace simpalapilearn.DLL
 {
     public class CityRepo:ConnectionString,ICityRepo
     {
-        public string InserCity(Cityinfomodel cityd )
+        public string InserCity(Cityinfomodel cityd1 )
         {
 
             return IDBCON.QueryFirstOrDefault<string>("SPCity", new { city = cityd }, commandType: CommandType.StoredProcedure);
