@@ -13,7 +13,7 @@ namespace simpalapilearn.DLL
         protected IDbConnection IDBCON;
 
         public ConnectionString()
-        {
+        { //sk connection string
            // IDBCON = new SqlConnection("Data Source=DESKTOP-9L3J39C\\SQLEXPRESS;Initial Catalog=RetailSoft;Integrated Security=true;");
             IDBCON = new SqlConnection ("Data Source=DESKTOP-9L3J39C\\SQLEXPRESS;Initial Catalog=RetailSoft;User ID=RSoft;Password=Reta!lS0ft@444;");
         }
