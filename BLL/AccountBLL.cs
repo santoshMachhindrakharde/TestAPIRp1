@@ -14,6 +14,9 @@ namespace simpalapilearn.BLL
         public AccountBLL()
         {
            db=new AccountRepo();
+            db = new AccountRepo();
+            db = new AccountRepo();
+            // datatable db = "santosh";
         }
 
         public Task<IEnumerable<AccountInfoModel>> GetAccount(int id)
